@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "GPX TopoPrint",
+    "slug": "gpx-topoprint",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#131416",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#131416",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "org.gpxtopoprint.app",
+      "infoPlist": {
+        "UISupportsDocumentBrowser": false,
+        "LSSupportsOpeningDocumentsInPlace": false
+      }
+    },
+    "android": {
+      "package": "org.gpxtopoprint.app",
+      "backgroundColor": "#131416"
+    },
+    "plugins": [
+      "expo-document-picker"
+    ]
+  }
+}
